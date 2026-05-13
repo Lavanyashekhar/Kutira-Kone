@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.KutiraKone" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Primary brand color — Forest Green -->
+        <item name="android:colorPrimary">#3B6D11</item>
+        <item name="android:colorPrimaryDark">#27500A</item>
+        <item name="android:colorAccent">#639922</item>
+
+        <!-- Status bar color matches app header -->
+        <item name="android:statusBarColor">#3B6D11</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- Edge-to-edge: let Compose handle insets -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+    <!-- Splash screen theme (shown before MainActivity loads) -->
+    <style name="Theme.KutiraKone.Splash" parent="Theme.KutiraKone">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">#3B6D11</item>
+        <item name="android:navigationBarColor">#3B6D11</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+</resources>

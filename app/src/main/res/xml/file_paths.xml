@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Required for FileProvider in AndroidManifest.xml.
+    Used when taking photos with the camera — the captured image
+    is saved to the app's cache directory and shared via this provider.
+-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Internal app cache (camera captures saved here) -->
+    <cache-path
+        name="kutira_cache"
+        path="." />
+
+    <!-- External cache (some devices save camera output here) -->
+    <external-cache-path
+        name="kutira_external_cache"
+        path="." />
+
+    <!-- External files directory -->
+    <external-files-path
+        name="kutira_external_files"
+        path="Pictures/" />
+
+</paths>

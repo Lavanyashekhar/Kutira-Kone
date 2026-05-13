@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Simple thread/fabric icon for the app launcher -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 C54,20 30,35 30,54 C30,65 38,74 54,74 C70,74 78,65 78,54 C78,35 54,20 54,20Z" />
+    <path
+        android:fillColor="#C0DD97"
+        android:pathData="M54,30 C54,30 40,40 40,54 C40,62 46,68 54,68 C62,68 68,62 68,54 C68,40 54,30 54,30Z" />
+    <path
+        android:fillColor="#3B6D11"
+        android:pathData="M54,42 C54,42 47,47 47,54 C47,58 50,61 54,61 C58,61 61,58 61,54 C61,47 54,42 54,42Z" />
+
+    <!-- Thread line -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M54,20 L54,88" />
+</vector>

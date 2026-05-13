@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "126532997658",
+    "firebase_url": "https://kutira-kone-88bb9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kutira-kone-88bb9",
+    "storage_bucket": "kutira-kone-88bb9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126532997658:android:0d5970e5f4bcbd78cef7a3",
+        "android_client_info": {
+          "package_name": "com.kutirakone.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkyX5LsOldGXT9eWQNj9KuRUo71xkSnMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

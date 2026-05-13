@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kutira-Kone</string>
+    <string name="app_tagline">Zero-waste fabric exchange</string>
+
+    <!-- Auth -->
+    <string name="login_title">Welcome to Kutira-Kone</string>
+    <string name="login_subtitle">Zero-waste fabric exchange for your community</string>
+    <string name="phone_hint">+91 98765 43210</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify_login">Verify &amp; Login</string>
+    <string name="browse_guest">Browse as Guest</string>
+    <string name="otp_hint">6-digit OTP</string>
+
+    <!-- Home -->
+    <string name="home_location">📍 Mangaluru · within 5 km</string>
+    <string name="search_hint">Search fabric, color…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_silk">Silk</string>
+    <string name="filter_cotton">Cotton</string>
+    <string name="filter_wool">Wool</string>
+    <string name="filter_synthetic">Synthetic</string>
+
+    <!-- Upload -->
+    <string name="upload_title">Upload Scrap</string>
+    <string name="photo_required">Fabric Photo (required)</string>
+    <string name="photo_tap">Tap to take or upload photo</string>
+    <string name="photo_min">Min. 1 clear photo required</string>
+    <string name="ai_detected">AI detected: </string>
+    <string name="ai_subtitle">Gemini auto-classified your fabric</string>
+    <string name="publish">Publish Listing</string>
+    <string name="photo_error">Please upload at least 1 photo before publishing.</string>
+
+    <!-- Listing modes -->
+    <string name="mode_swap">🔄 Swap</string>
+    <string name="mode_free">🆓 Free</string>
+    <string name="mode_sell">💰 Sell</string>
+
+    <!-- Detail -->
+    <string name="request_trade">🔄 Request Trade</string>
+    <string name="message_seller">💬 Message Seller</string>
+    <string name="ai_ideas_title">✨ AI Design Ideas</string>
+    <string name="see_all">See all</string>
+
+    <!-- Map -->
+    <string name="map_title">Browse Map</string>
+    <string name="radius_label">Radius:</string>
+
+    <!-- Swap -->
+    <string name="swap_title">Request Trade</string>
+    <string name="swap_info">Seller will be notified of your offer. You\'ll get a push notification once they respond.</string>
+    <string name="send_swap">Send Trade Request</string>
+
+    <!-- Trades -->
+    <string name="trades_title">My Listings &amp; Trades</string>
+    <string name="active_listings">Active Listings</string>
+    <string name="pending_requests">Pending Requests</string>
+    <string name="trade_history">Trade History</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+
+    <!-- Profile -->
+    <string name="profile_title">My Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sustainability_score">Sustainability Score</string>
+    <string name="waste_saved">kg of fabric saved from landfill</string>
+
+    <!-- Rating -->
+    <string name="rate_title">Rate Trader</string>
+    <string name="rate_question">How was your trade?</string>
+    <string name="rate_subtitle">Your honest rating helps the community</string>
+    <string name="submit_rating">Submit Rating</string>
+    <string name="review_hint">Share your experience (optional)</string>
+
+    <!-- Chat -->
+    <string name="message_hint">Type a message…</string>
+
+    <!-- Design Ideas -->
+    <string name="ideas_title">AI Design Ideas</string>
+    <string name="ideas_ai_label">Gemini AI generated these ideas</string>
+    <string name="ideas_ai_sub">Based on material type, size and color</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">No internet connection.</string>
+    <string name="error_otp_failed">OTP verification failed.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Kutira-Kone Alerts</string>
+    <string name="notif_channel_desc">Swap requests, trade confirmations, and nearby scraps</string>
+    <string name="notif_new_scrap">New fabric scrap nearby!</string>
+    <string name="notif_swap_request">You have a new swap request</string>
+    <string name="notif_swap_accepted">Your swap request was accepted!</string>
+    <string name="notif_swap_rejected">Your swap request was rejected.</string>
+
+    <!-- Content descriptions (accessibility) -->
+    <string name="cd_fabric_photo">Fabric photo</string>
+    <string name="cd_back">Go back</string>
+    <string name="cd_notifications">Notifications</string>
+    <string name="cd_profile">Profile</string>
+    <string name="cd_send_message">Send message</string>
+</resources>

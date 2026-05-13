@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_lg">16dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+
+    <!-- Border radius -->
+    <dimen name="radius_sm">8dp</dimen>
+    <dimen name="radius_md">10dp</dimen>
+    <dimen name="radius_lg">12dp</dimen>
+    <dimen name="radius_pill">24dp</dimen>
+
+    <!-- Typography — NFR-05: min 14sp -->
+    <dimen name="text_xs">11sp</dimen>
+    <dimen name="text_sm">12sp</dimen>
+    <dimen name="text_md">14sp</dimen>
+    <dimen name="text_lg">16sp</dimen>
+    <dimen name="text_xl">18sp</dimen>
+    <dimen name="text_xxl">22sp</dimen>
+
+    <!-- Component sizes -->
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="input_height">52dp</dimen>
+    <dimen name="bottom_nav_height">60dp</dimen>
+    <dimen name="fabric_card_img_height">110dp</dimen>
+    <dimen name="detail_hero_height">200dp</dimen>
+    <dimen name="avatar_sm">32dp</dimen>
+    <dimen name="avatar_md">44dp</dimen>
+    <dimen name="avatar_lg">60dp</dimen>
+</resources>
