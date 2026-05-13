@@ -14,8 +14,18 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0.0"
+<<<<<<< HEAD
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables { useSupportLibrary = true }
+=======
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+
+>>>>>>> d94e41b (Initial project upload)
         manifestPlaceholders["MAPS_API_KEY"] = "AIzaSyDvCH75BFxxc-NFMZudRIQKjcde9ese9pY"
     }
 
@@ -51,9 +61,22 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+<<<<<<< HEAD
 }
 
 dependencies {
+=======
+
+    testOptions {
+        unitTests {
+            isIncludeAndroidResources = true
+        }
+    }
+}
+
+dependencies {
+
+>>>>>>> d94e41b (Initial project upload)
     // Core
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.3")
@@ -66,7 +89,13 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-extended")
+<<<<<<< HEAD
     debugImplementation("androidx.compose.ui:ui-tooling")
+=======
+
+    debugImplementation("androidx.compose.ui:ui-tooling")
+    debugImplementation("androidx.compose.ui:ui-test-manifest:1.6.8")
+>>>>>>> d94e41b (Initial project upload)
 
     // Navigation
     implementation("androidx.navigation:navigation-compose:2.7.7")
@@ -93,4 +122,17 @@ dependencies {
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.8.1")
+<<<<<<< HEAD
+=======
+
+    // Unit Test
+    testImplementation("junit:junit:4.13.2")
+
+    // Android Instrumented Tests
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("androidx.test:runner:1.5.2")
+    androidTestImplementation("androidx.test:rules:1.5.0")
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.6.8")
+>>>>>>> d94e41b (Initial project upload)
 }
